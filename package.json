@@ -22,9 +22,6 @@
     "lint": "eslint . --fix",
     "release": "npm run lint && npm run test && standard-version"
   },
-  "dependencies": {
-    "stylelint-order": "^4.1.0"
-  },
   "devDependencies": {
     "@commitlint/cli": "^9.1.2",
     "@commitlint/config-conventional": "^9.1.2",
@@ -35,10 +32,12 @@
     "jest": "^26.4.2",
     "lint-staged": "^10.2.13",
     "standard-version": "^9.0.0",
-    "stylelint": "^13.7.0"
+    "stylelint": "^13.7.0",
+    "stylelint-order": "^4.1.0"
   },
   "peerDependencies": {
-    "stylelint": "^10.1.0 || ^11.0.0 || ^12.0.0 || ^13.0.0"
+    "stylelint": "^10.1.0 || ^11.0.0 || ^12.0.0 || ^13.0.0",
+    "stylelint-order": "^4.0.0"
   },
   "husky": {
     "hooks": {
