@@ -173,6 +173,9 @@ module.exports = {
           'after-single-line-comment',
           'first-nested',
         ],
+        ignore: [
+          'after-comment',
+        ],
       },
     ],
 
