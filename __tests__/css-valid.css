@@ -1,0 +1,17 @@
+.foo {
+  background: linear-gradient(90deg, transparent 0%, rgba(255, 255, 255, 0.25) 100%);
+}
+
+.bar {
+  background:
+    linear-gradient(
+      90deg,
+      transparent 0%,
+      rgba(255, 255, 255, 0.25) 30%,
+      rgba(255, 255, 255, 0.25) 70%,
+      transparent 100%
+    );
+  box-shadow:
+    0 0 0 1px #000,
+    0 0 2px 1px rgba(30, 140, 190, 0.8);
+}
