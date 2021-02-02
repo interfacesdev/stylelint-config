@@ -150,6 +150,10 @@ module.exports = {
       'custom-properties',
       {
         type: 'at-rule',
+        name: 'extend',
+      },
+      {
+        type: 'at-rule',
         name: 'include',
       },
       'declarations',
